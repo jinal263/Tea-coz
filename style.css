@@ -1,0 +1,105 @@
+body{
+    font-family: helvetica;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+.fl{
+    float: left;
+}
+.fl > img{
+height: 50px;
+margin: 10px;
+}
+.nav-menu ul > li {
+    display: inline;
+    margin-right: 7px;
+}
+ul >li:hover{
+    color: brown;
+}
+.menu-listing{
+    float: right;
+    text-decoration: underline;
+    list-style-type:none;
+}
+.nav-menu{
+    border-bottom: 1px solid gray;  
+}
+.nav-menu::before,
+.nav-menu::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+.nav-menu::after {
+    clear: both;
+}
+/*------- Banner Section Starts -------*/
+.bg-banner {
+    background-image:url(./images/img-mission-background.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.banner-info {
+    background-color: #000000;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.banner-info > h4 , .banner-info > h2 {
+    text-align: center;
+    margin: 0;
+}
+/*------- Banner Section Ends -------*/
+.gallery{
+    margin-left: 70px;
+}
+.gallery > h2 , .gallery > h3 {
+    text-align: center;
+}
+/* ---gallery section start-----*/
+.bg-gallery {
+    display: flex;
+    flex-wrap:wrap;
+}
+.bg-gallery img{
+    width: 300px;
+    height: 200px;
+}
+figcaption{
+    text-align: center;
+}
+/* ---gallery section end-----*/
+/*--Location section start--*/
+.location > h1 {
+    color: #000000;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+.location{
+    background-image: url(./images/img-locations-background.webp);
+    height: 550px;
+    opacity: 1;
+}
+
+/*--location section end--*/
+/*--footer section starts--*/
+footer{
+    height: 200px;
+    text-align: center;
+}
+/*--footer section end--*/
