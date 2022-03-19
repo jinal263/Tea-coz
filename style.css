@@ -74,6 +74,8 @@ ul >li:hover{
 .bg-gallery {
     display: flex;
     flex-wrap:wrap;
+     justify-content: center;
+
 }
 .bg-gallery img{
     width: 300px;
