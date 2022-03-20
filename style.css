@@ -65,7 +65,8 @@ ul >li:hover{
 }
 /*------- Banner Section Ends -------*/
 .gallery{
-    margin-left: 70px;
+    margin:auto;
+    width: 100%;
 }
 .gallery > h2 , .gallery > h3 {
     text-align: center;
@@ -74,8 +75,7 @@ ul >li:hover{
 .bg-gallery {
     display: flex;
     flex-wrap:wrap;
-     justify-content: center;
-
+    justify-content: center;
 }
 .bg-gallery img{
     width: 300px;
@@ -91,13 +91,25 @@ figcaption{
     text-align: center;
     position: relative;
     top: 10%;
+    opacity: 1;
 }
 .location{
     background-image: url(./images/img-locations-background.webp);
     height: 550px;
     opacity: 1;
+    width: auto;
+    margin: auto;
 }
+.downtown{
+    background-color: #000000;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    margin-left: 10%;
+    margin-top: 5%;
 
+
+}
 /*--location section end--*/
 /*--footer section starts--*/
 footer{
